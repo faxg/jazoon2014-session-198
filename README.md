@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/faxg/jazoon2014-session-198.png?label=ready&title=Ready)](https://waffle.io/faxg/jazoon2014-session-198)
 jazoon2014-session-198
 ======================
 
