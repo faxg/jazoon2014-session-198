@@ -8,5 +8,5 @@ module.exports = {
     uri: 'mongodb://localhost/jazoon2014session198-dev'
   },
 
-  seedDB: true
+  seedDB: false
 };
