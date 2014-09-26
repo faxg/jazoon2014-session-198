@@ -3,6 +3,8 @@
 angular.module('jazoon2014Session198App')
   .controller('MainCtrl', function ($scope, $http, socket) {
     $scope.awesomeThings = [];
+    mixpanel.track("Home");
+
 
     $http.get('/api/things').success(function(awesomeThings) {
       $scope.awesomeThings = awesomeThings;

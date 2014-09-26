@@ -13,4 +13,6 @@ angular.module('jazoon2014Session198App', [
       .otherwise('/');
 
     $locationProvider.html5Mode(true);
+
+    mixpanel.track("Application loaded");
   });
